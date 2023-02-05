@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/functionalTests",
         glue= "stepDefinitions",
-        tags = "@login"
+        tags = "@login,@apitesting"
 )
 
 public class TestRunner {

@@ -1,3 +1,4 @@
+@apitesting
 Feature: End to End Tests for provided  Get Endpoints
   Description: The Purpose of these tests are to cover end to end happy flows for endpoints.
 
