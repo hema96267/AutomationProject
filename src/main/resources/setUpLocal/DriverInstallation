@@ -1,0 +1,11 @@
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class DriverInstalltion{
+
+    public void setUpLocal(){
+      System.setProperty("webdriver.chrome.driver",Objects.requireNonNull(getClass().getClassLoader().getResource("drivers/chromedriver.exe")).getFile());
+        ChromeOptions options =new ChromeOptions();
+
+
+    }
+}
